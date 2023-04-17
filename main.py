@@ -4,8 +4,10 @@ ToDo = []
 
 def printToDo():
   print()
+  i = 0
   for item in ToDo:
-    print(item)
+    i += 1
+    print(f"{i}.{item}")
   print()
 
 while True:
